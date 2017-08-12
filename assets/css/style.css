@@ -267,9 +267,7 @@ body {
     display: block;
     position: relative;
   }
-  li {
 
-  }
   .navAboutMe {
     margin-top: 90px;
     float: left;
@@ -278,12 +276,21 @@ body {
   .navPortfolio {
     margin-top: 90px;
     float: left;
-
+    border-left: 0px;
   }
 
   .navContact {
+    margin-left: 25%;
     margin-top: 90px;
     float: left;
-
+    margin-right: 0px;
+    border-left: 0px;
+  }
+  .myName {
+    width: 100%;
+    left: -10%;
+  }
+  .galleryBack {
+    margin-top: 2%;
   }
 }
