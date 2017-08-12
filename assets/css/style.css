@@ -4,7 +4,7 @@ header {
 }
 
 ul {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+ font-family: 'Georgia', Times, Times New Roman, serif;
  list-style-type: none;
  margin: 0;
  padding: 35px;
@@ -95,10 +95,10 @@ p {
   float: left;
   width: 30%;
   height: 30%;
-  background: white;
+  /*background: white;
   border-top-left-radius: 3px;
   border-radius: 106px 108px 112px;
-  box-shadow: 5px 5px 8px black;
+  box-shadow: 5px 5px 8px black;*/
 }
 
  section {
@@ -153,6 +153,7 @@ footer {
   padding-bottom: 20px;
 }
 .underFooter {
+  display: block;
   z-index: 99;
   text-decoration: none;
   position: fixed;
@@ -223,17 +224,66 @@ body {
   background-repeat: repeat;
 }
 
-@media screen (max-width: 980px) {
+@media screen and (max-width: 980px) {
+  .Me {
+    width:
+  }
 
+@media screen and (max-width: 768px) {
+  ul {
+   width: 100%;
+  }
+  section {
+    margin-right: 0px;
+    position: absolute;
+    right: 0px;
+  }
 
+  .aboutMe {
+    width: 100%;
+    display: block;
+    margin: 0;
+    margin-top: 2%;
+  }
+  .Me {
+
+  }
+  .galleryBack {
+    width: 100%;
+    margin-left: 0px;
+  }
 }
 
-@media screen (max-width: 768px) {
+@media screen and (max-width: 640px) {
+  .galleryBack {
+    width: 100%;
+    margin: 0 auto;
+  }
 
+  .Me {
+    left: 10%;
+    margin-right: 100%;
+    width: 75%;
+    display: block;
+    position: relative;
+  }
+  li {
 
-}
+  }
+  .navAboutMe {
+    margin-top: 90px;
+    float: left;
+  }
 
-@media screen (max-width: 640px) {
+  .navPortfolio {
+    margin-top: 90px;
+    float: left;
 
+  }
 
+  .navContact {
+    margin-top: 90px;
+    float: left;
+
+  }
 }
