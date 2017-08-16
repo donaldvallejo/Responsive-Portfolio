@@ -324,8 +324,9 @@ body {
     border-left: 0px;
   }
   .myName {
+    text-align: center;
     width: 100%;
-    left: -10%;
+    left: -57px;
   }
   .galleryBack {
     margin-top: 2%;
