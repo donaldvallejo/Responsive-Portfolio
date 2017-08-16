@@ -219,7 +219,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #dedddd;
-  background-image: url("/Users/localscrub/Documents/UCBE/hw/Basic-Portfolio/assets/images/background.png");
+  background-image: url("../assets/images/background.png");
   background-repeat: repeat;
 }
 
