@@ -95,18 +95,17 @@ p {
   float: left;
   width: 30%;
   height: 30%;
-  /*background: white;
+  background: white;
   border-top-left-radius: 3px;
   border-radius: 106px 108px 112px;
-  box-shadow: 5px 5px 8px black;*/
+  box-shadow: 5px 5px 8px black;
 }
 
  section {
-   text-align: center;
    position: fixed;
+   text-align: center;
    color: white;
    font-size: 25px;
-   float: right;
    right: 8%;
    top: 18%;
    height: 20%;
@@ -224,19 +223,18 @@ body {
   background-repeat: repeat;
 }
 
-@media screen and (max-width: 980px) {
-  .Me {
-    width:
-  }
-
 @media screen and (max-width: 768px) {
   ul {
    width: 100%;
+   text-align: left;
   }
+
   section {
-    margin-right: 0px;
-    position: absolute;
-    right: 0px;
+    position: static;
+    float: left;
+    margin-top: 2%;
+    width: 100%;
+    bottom: 0px;
   }
 
   .aboutMe {
@@ -251,10 +249,45 @@ body {
   .galleryBack {
     width: 100%;
     margin-left: 0px;
+    position: static;
+
   }
+
+  .facebookpng {
+    margin-right: 2%;
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+  .githubpng {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+    bottom: 30px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+  }
+  .linkedInpng {
+    position: relative;
+    float: left;
+    bottom: 30px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
+  ul {
+    float: left;
+    text-align: left;
+  }
+
   .galleryBack {
     width: 100%;
     margin: 0 auto;
@@ -266,6 +299,10 @@ body {
     width: 75%;
     display: block;
     position: relative;
+    background: none;
+    border-top-left-radius: 0px;
+    border-radius: 0px 0px 0px;
+    box-shadow: 0px 0px 0px black;
   }
 
   .navAboutMe {
@@ -292,13 +329,44 @@ body {
   }
   .galleryBack {
     margin-top: 2%;
-  }
-  img {
-
+    position: static;
   }
 
   section {
-
+    position: static;
     float: left;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 2%;
+  }
+  .facebookpng {
+    margin-right: 2%;
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+  .githubpng {
+    position: relative;
+    float: left;
+    margin-right: 2%;
+    bottom: 30px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+  }
+  .linkedInpng {
+    position: relative;
+    float: left;
+    bottom: 30px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .connecttext {
+    text-align: left;
   }
 }
