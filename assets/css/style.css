@@ -199,7 +199,7 @@ button {
 
 .galleryInfo {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  text-align: center;
+   text-align: center;
    float: left;
    position: absolute;
    margin-top: 58%;
@@ -219,7 +219,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #dedddd;
-  background-image: url("assets/images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: repeat;
 }
 
